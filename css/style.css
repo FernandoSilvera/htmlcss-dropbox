@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+  font-family: "Fredoka", sans-serif;
+  font-size: 16px;
+}
+
+main {
+	
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+/* FLEX FLEX FLEX FLEX FLEX FLEX FLEX FLEX */
+.flex-row {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.flex-col {
+	display: flex;
+}
+
+.just-between {
+	justify-content: space-between;
+}
+
+.just-end {
+	justify-content: end;
+}
+
+/* CONTENT CONTENT CONTENT CONTENT CONTENT */
