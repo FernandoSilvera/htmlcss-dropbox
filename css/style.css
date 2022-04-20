@@ -41,7 +41,7 @@ h2 {
 .col-container {
   width: 100%;
   max-width: calc(100% - 1em);
-  padding: 2em 1em;
+  padding: 0 1em;
   margin: auto;
 }
 
@@ -62,8 +62,16 @@ h2 {
 	justify-content: space-between;
 }
 
+.just-around {
+	justify-content: space-around;
+}
+
 .just-end {
 	justify-content: end;
+}
+
+.gap-med {
+  gap: 2em;
 }
 
 .col {
@@ -79,6 +87,7 @@ h2 {
   width: 100%;
   min-height: 50px;
   position: fixed;
+  z-index: 1;
   background-color: rgb(255, 229, 200);
   border: 2px solid black;
 }
@@ -114,11 +123,36 @@ h2 {
 }
 
 .plan {
+  padding: 10px;
   background-color: aquamarine;
 }
 
 .radio {
   padding: 30px 0;
+}
+
+.block-span {
+  display: block;
+}
+
+.pad-med {
+  padding: 2em 2em;
+}
+
+.pad-med-top {
+  padding: 2em 0;
+}
+
+.pad-med-side {
+  padding: 0 2em;
+}
+
+.pad-top-small {
+  padding-top: 1em;
+}
+
+.mar-med {
+  margin: 2em 0;
 }
 
 .partner {
