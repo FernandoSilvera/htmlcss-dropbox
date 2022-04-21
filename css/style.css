@@ -6,7 +6,7 @@
 
 body {
   font-family: "Fredoka", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 h1 {
@@ -103,8 +103,6 @@ h2 {
   flex-grow: 3;
 }
 
-/* FLOAT FLOAT FLOAT FLOAT FLOAT */
-
 
 /* SECTIONS MEASURES SECTIONS MEASURES SECTIONS MEASURES */
 img {
@@ -117,8 +115,6 @@ img {
   min-height: 50px;
   position: fixed;
   z-index: 1;
-  background-color: rgb(255, 229, 200);
-  border: 2px solid black;
 }
 
 .footer-div {
@@ -147,6 +143,23 @@ img {
 }
 
 /* CONTENT CONTENT CONTENT CONTENT CONTENT */
+.navbar li {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header-nav-left li {
+  padding-left: 2em;
+}
+
+.header-nav-right li {
+  padding-right: 2em;
+}
+
+.logo-dropbox {
+  vertical-align: middle;
+}
+
 .jumbotron .col {
   height: 500px;
 }
@@ -251,4 +264,8 @@ img {
 
 .font-white {
   color: white;
+}
+
+.bg-white {
+  background-color: rgb(255, 255, 255);
 }
