@@ -30,12 +30,11 @@ h2 {
 
 .jumbotron-container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1100px;
   min-width: 300px;
-  border: 2px dashed red;
   margin: 0 auto;
   position: relative;
-  top: var(--pad-default);
+  top: calc(var(--pad-default) * 2);
 }
 
 .footer-container {
@@ -58,7 +57,6 @@ h2 {
 .flex-row {
 	display: flex;
 	align-items: center;
-	flex-wrap: wrap;
 }
 
 .flex-col {
@@ -83,6 +81,10 @@ h2 {
 	justify-content: end;
 }
 
+.align-top {
+  align-items: start;
+}
+
 .gap-med {
   gap: 2em;
 }
@@ -103,6 +105,9 @@ h2 {
   flex-grow: 3;
 }
 
+.jumbo-col-large {
+  min-width: 800px;
+}
 
 /* SECTIONS MEASURES SECTIONS MEASURES SECTIONS MEASURES */
 img {
@@ -142,6 +147,10 @@ img {
   padding-top: calc(var(--pad-default) * 2);
 }
 
+.pad-top-quad {
+  padding-top: calc(var(--pad-default) * 4);
+}
+
 /* CONTENT CONTENT CONTENT CONTENT CONTENT */
 .navbar li {
   display: inline-block;
@@ -160,8 +169,27 @@ img {
   vertical-align: middle;
 }
 
-.jumbotron .col {
-  height: 500px;
+
+
+.button-big {
+  padding: 0.8em 1em;
+}
+
+.jumbo-p {
+  padding: 1em 0 1.5em;
+}
+
+.jumbo-span {
+  padding: 1.5em 0;
+}
+
+.jumbo-img {
+  padding-top: 1em;
+  align-self: center;
+}
+
+.padding-bor {
+  padding: 10px;
 }
 
 .plan {
@@ -173,7 +201,7 @@ img {
   padding: 30px 0;
 }
 
-.block-span {
+.block {
   display: block;
 }
 
@@ -242,9 +270,7 @@ img {
   background-color: aquamarine;
 }
 
-.jumbo .col {
-  height: 600px;
-}
+
 
 /* footer .col {
   height: 400px;
