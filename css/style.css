@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Fredoka", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 14px;
 }
 
@@ -15,6 +15,10 @@ h1 {
 
 h2 {
   font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
 }
 
 :root {
@@ -85,6 +89,10 @@ h2 {
   align-items: start;
 }
 
+.align-end {
+  align-items: end;
+}
+
 .gap-med {
   gap: 2em;
 }
@@ -107,6 +115,14 @@ h2 {
 
 .jumbo-col-large {
   min-width: 800px;
+}
+
+.clients-col-med {
+  min-width: 400px;
+}
+
+.trial-col-med {
+  min-width: calc(100% / 2.5);
 }
 
 /* SECTIONS MEASURES SECTIONS MEASURES SECTIONS MEASURES */
@@ -136,7 +152,6 @@ img {
 .section {
   min-height: 300px;
   padding: var(--pad-default) 0;
-  border: 2px dashed blueviolet;
 }
 
 .pad-double {
@@ -233,13 +248,20 @@ img {
   margin: 2em 0;
 }
 
-.partner {
-  padding: 10px;
-  background-color: aquamarine;
+.margin-top-large {
+  margin-top: 4rem;
 }
 
-.image {
-  width: 300px;
+.margin-bot-small {
+  margin-bottom: 1.5rem;
+}
+
+.partner-image {
+  min-width: 500px;
+}
+
+.partner-info-container {
+  padding: 4em 6em;
 }
 
 .business {
@@ -251,18 +273,8 @@ img {
   height: 500px;
 }
 
-.clients {
-  padding: 10px;
-  background-color: aquamarine;
-}
-
 .clients .col {
   height: 300px;
-}
-
-.trial {
-  height: 100px;
-  background-color: aquamarine;
 }
 
 .faq {
@@ -278,7 +290,9 @@ img {
 
 /* TEST TEST TEST TEST TEST TEST */
 
-
+.section {
+  border: 2px dashed violet;
+}
 
 
 
