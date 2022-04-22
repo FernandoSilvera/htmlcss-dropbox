@@ -21,6 +21,10 @@ h3 {
   font-size: 1.5rem;
 }
 
+h4 {
+  font-size: 1.2rem;;
+}
+
 :root {
   --pad-default: 50px;
 }
@@ -45,8 +49,6 @@ h3 {
   width: 100%;
   max-width: 1200px;
   min-width: 300px;
-  min-height: 400px;
-  border: 2px dashed red;
   margin: 0 auto;
 }
 
@@ -146,11 +148,10 @@ img {
 .jumbo {
   min-height: 600px;
   padding: var(--pad-default) 0 0;
-  background-color: rgb(166, 214, 255);
 }
 
 .section {
-  min-height: 300px;
+  /* min-height: 300px; */
   padding: var(--pad-default) 0;
 }
 
@@ -183,8 +184,6 @@ img {
 .logo-dropbox {
   vertical-align: middle;
 }
-
-
 
 .button-big {
   padding: 0.8em 1em;
@@ -228,6 +227,22 @@ img {
   padding: 2em 0;
 }
 
+.pad-big-onlytop {
+  padding-top: 4em;
+}
+
+.pad-big-top {
+  padding: 4em 0;
+}
+
+.pad-small-top {
+  padding: 1em 0;
+}
+
+.pad-vsmall-top {
+  padding: 0.5em 0;
+}
+
 .pad-med-side {
   padding: 0 2em;
 }
@@ -264,22 +279,8 @@ img {
   padding: 4em 6em;
 }
 
-.business {
-  padding: 10px;
-  background-color: aquamarine;
-}
-
-.business .col {
-  height: 500px;
-}
-
-.clients .col {
-  height: 300px;
-}
-
-.faq {
-  height: 400px;
-  background-color: aquamarine;
+.business p {
+  margin-top: 30px;
 }
 
 
@@ -290,11 +291,17 @@ img {
 
 /* TEST TEST TEST TEST TEST TEST */
 
-.section {
-  border: 2px dashed violet;
+.flex-grow {
+  flex-grow: 1;
 }
 
+.basis-zero {
+  flex-basis: 0;
+}
 
+.bold {
+  font-weight: bold;
+}
 
 
 
@@ -302,10 +309,22 @@ img {
   border: 2px dashed red;
 }
 
+.bor-bot-black {
+  border-bottom: 1px solid black;
+}
+
 .font-white {
   color: white;
 }
 
+.font-gray {
+  color: rgb(176, 176, 176);
+}
+
 .bg-white {
   background-color: rgb(255, 255, 255);
+}
+
+.bg-lightblue {
+  background-color: rgb(184, 222, 255);
 }
