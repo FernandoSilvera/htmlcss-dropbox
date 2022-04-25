@@ -71,6 +71,10 @@ h4 {
   justify-content: center;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .just-between {
 	justify-content: space-between;
 }
@@ -219,8 +223,16 @@ img {
   display: block;
 }
 
+.pad-small {
+  padding: 1em 2em;
+}
+
 .pad-med {
-  padding: 2em 2em;
+  padding: 2em;
+}
+
+.pad-big {
+  padding: 4em;
 }
 
 .pad-med-top {
@@ -247,6 +259,10 @@ img {
   padding: 0 2em;
 }
 
+.pad-med-y {
+  padding: 2em 0;
+}
+
 .pad-small-bot {
   padding-bottom: 1em;
 }
@@ -255,8 +271,16 @@ img {
   padding-bottom: 2em;
 }
 
+.pad-big-bot {
+  padding-bottom: 4em;
+}
+
 .pad-top-small {
   padding-top: 1em;
+}
+
+.padding-zero {
+  padding: 0;
 }
 
 .mar-med {
@@ -299,6 +323,22 @@ img {
   flex-basis: 0;
 }
 
+.square {
+  width: 50%;
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-50 {
+  width: 50%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+
 .bold {
   font-weight: bold;
 }
@@ -327,4 +367,36 @@ img {
 
 .bg-lightblue {
   background-color: rgb(184, 222, 255);
+}
+
+.bg-green {
+  background-color: rgb(123, 196, 123);
+}
+
+.bg-brown {
+  background-color: rgb(150, 44, 44);
+}
+
+.bg-blue {
+  background-color: rgb(0, 115, 255);
+}
+
+.bg-orangered {
+  background-color: orangered;
+}
+
+.bg-red {
+  background-color: rgb(241, 54, 54);
+}
+
+.bg-aqua {
+  background-color: rgb(181, 249, 226);
+}
+
+.bg-darkblue {
+  background-color: rgb(40, 40, 142);
+}
+
+.bg-yellow {
+  background-color: yellow;
 }
