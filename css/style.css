@@ -22,7 +22,11 @@ h3 {
 }
 
 h4 {
-  font-size: 1.2rem;;
+  font-size: 1.2rem;
+}
+
+h5 {
+  font-size: 1rem;
 }
 
 :root {
@@ -85,6 +89,10 @@ h4 {
 
 .just-start {
   justify-content: start;
+}
+
+.just-center {
+  justify-content: center;
 }
 
 .just-end {
@@ -212,7 +220,6 @@ img {
 
 .plan {
   padding: 10px;
-  background-color: aquamarine;
 }
 
 .radio {
@@ -221,6 +228,10 @@ img {
 
 .block {
   display: block;
+}
+
+.pad-vsmall {
+  padding: 0.5em 0.5em;
 }
 
 .pad-small {
@@ -243,6 +254,10 @@ img {
   padding-top: 4em;
 }
 
+.pad-vbig-onlytop {
+  padding-top: 6em;
+}
+
 .pad-big-top {
   padding: 4em 0;
 }
@@ -261,6 +276,10 @@ img {
 
 .pad-med-y {
   padding: 2em 0;
+}
+
+.pad-vsmall-bot {
+  padding-bottom: 0.5em;
 }
 
 .pad-small-bot {
@@ -285,6 +304,22 @@ img {
 
 .mar-med {
   margin: 2em 0;
+}
+
+.mar-big {
+  margin: 4em 0;
+}
+
+.mar-big-bot {
+  margin-bottom: 4em;
+}
+
+.mar-med-right {
+  margin-right: 2em;
+}
+
+.mar-big-right {
+  margin-right: 4em;
 }
 
 .margin-top-large {
@@ -337,10 +372,54 @@ img {
   vertical-align: middle;
 }
 
+.icon {
+  width: 14px;
+  height: 14px;
+  margin-right: 3px;
+  flex-shrink: 0;
+}
+
+.icon-big {
+  width: 45px;
+  height: 45px;
+  margin: 100px 0;
+}
+
+.radio {
+  margin-right: 0.5em;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+}
+
+.header-button {
+  padding: 0.5em 1.5em;
+  color: white;
+  background-color: rgb(0, 115, 255);
+  border: none;
+}
+
+.bor-bot-hr {
+  border-bottom: 2px solid rgb(206, 206, 206);
+}
+
+.bor-gray {
+  border: 2px solid rgb(206, 206, 206);
+}
+
+.bor-none {
+  border: none;
+}
 
 
 .bold {
   font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
 }
 
 
